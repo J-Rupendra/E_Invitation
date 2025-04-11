@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/fav-icon.png">
+  <title>Invitation</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <nav class="nav-bar">
+     <img src="./assets/icon.jfif" alt="TR">
+    <time class="timer"></time>
+    <input type="checkbox" id="language-toggle">
+  </nav>
+
+<section>
+  <div id="intro-container">
+    <img src="./assets/ganesha.png" alt="Lord Ganesha">
+    <p id="intro-message" ></p>
+  </div>
+</section>
+
+  <Section class="card-container">
+    <div class="card" id="groom-card">
+      <img src="./assets/groom.jpeg"class="image-container" alt="Groom Image">
+      <div class="content">
+        <h2 id="groom-name" ></h2>
+        <p id="groom-owners" ></p>
+      </div>
+    </div>
+    <div class="card" id="bride-card">
+      <img src="./assets/bride.jpeg" class="image-container" alt="Brde Image">
+      <div class="content">
+        <h2 id="bride-name" ></h2>
+        <p id="bride-owners"></p>
+      </div>
+    </div>
+    <div class="card" id="wedding-details-card">
+      <img src="./assets/both.jpeg" class="image-container" alt="Groom and Bride">
+      <div class="content">
+        <h2>Wedding Timings</h2>
+        <p id="lunar-time"> శ్రీ విశ్వావసు నామ సంవత్సర వైశాఖ మాస శుక్ల పక్ష త్రయోదశి శుక్రవారం చిత్త నక్షత్రయుక్త కుంభ లగ్నమందు రాత్రి 2 గంటల 12 నిముషాలు (తెల్లవారితే శనివారం)</p>
+        <hr>
+        <div class="ocasion-info-container">
+          <div id="reception-label"></div>
+          <div id="reception-time"></div>
+        </div>
+        <hr>
+        <div class="ocasion-info-container">
+          <div id="marriage-label"></div>
+          <div id="marriage-time"></div>
+        </div>
+        <hr>
+        <div class="ocasion-info-container">
+          <div id="venue-label"></div>
+          <div id="venue-value"></div>
+        </div>
+        <hr>
+
+
+        <a target="_blank" href="https://maps.google.com/?q=17.611359,82.941672" id="map-direction">
+          <svg fill="#ffffff" version="1.1" viewBox="0 0 485 485" width="40px" height="20px" stroke="#ffffff">
+            <g stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <path
+                  d="M382.702,351.4c-24.813,0-45.001,20.187-45.001,45c0,24.813,20.188,45,45.001,45s45-20.187,45-45 C427.702,371.587,407.516,351.4,382.702,351.4z M382.702,411.4c-8.271,0-15.001-6.729-15.001-15c0-8.271,6.729-15,15.001-15 s15,6.729,15,15C397.702,404.671,390.974,411.4,382.702,411.4z">
+                </path>
+                <path
+                  d="M382.702,110.898c-19.3,0-35.001,15.701-35.001,35s15.701,35,35.001,35c19.299,0,35-15.701,35-35 S402.001,110.898,382.702,110.898z">
+                </path>
+                <path
+                  d="M382.701,43.6c-56.407,0-102.298,45.891-102.298,102.298c0,23.226,7.618,45.137,22.059,63.396l80.239,100.884 l80.267-100.917C477.381,191.034,485,169.124,485,145.897C485,89.49,439.109,43.6,382.701,43.6z M439.463,190.618l-56.762,71.364 l-56.734-71.332c-10.182-12.875-15.563-28.35-15.563-44.753c0-39.865,32.433-72.298,72.298-72.298S455,106.032,455,145.897 C455,162.301,449.618,177.776,439.463,190.618z">
+                </path>
+                <rect x="167.399" y="381.4" width="40" height="30"></rect>
+                <rect x="222.5" y="381.4" width="40" height="30"></rect>
+                <rect x="277.601" y="381.4" width="40" height="30"></rect>
+                <path
+                  d="M137.298,145.898c0-19.299-15.701-35-35-35s-35,15.701-35,35s15.701,35,35,35S137.298,165.197,137.298,145.898z">
+                </path>
+                <path
+                  d="M182.564,209.26c14.414-18.226,22.032-40.137,22.032-63.363c0-56.407-45.891-102.298-102.299-102.298 C45.891,43.6,0,89.49,0,145.897c0,23.228,7.619,45.138,22.059,63.396l80.239,100.884L182.564,209.26z M30,145.897 C30,106.032,62.433,73.6,102.298,73.6s72.299,32.433,72.299,72.298c0,16.403-5.382,31.879-15.537,44.721l-56.762,71.364 L45.563,190.65C35.382,177.777,30,162.302,30,145.897z">
+                </path>
+                <path
+                  d="M102.298,351.4c-24.813,0-45,20.187-45,45c0,24.813,20.187,45,45,45s45.001-20.187,45.001-45 C147.299,371.587,127.111,351.4,102.298,351.4z M102.298,411.4c-8.271,0-15-6.729-15-15c0-8.271,6.729-15,15-15 s15.001,6.729,15.001,15C117.299,404.671,110.569,411.4,102.298,411.4z">
+                </path>
+              </g>
+            </g>
+          </svg>
+          Get Directions</a>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="scrolling-container">
+      <header id="scrolling-heading" >Best wishes from relatives</header>
+      <ul class="scrolling-content" data-direction="normal">
+      </ul>
+      <ul class="scrolling-content" data-direction="reverse">
+      </ul>
+      <ul class="scrolling-content" data-direction="normal">
+      </ul>
+      <ul class="scrolling-content" data-direction="reverse">
+      </ul>
+    </div>
+  </section>
+  <section id="welcome-container">
+    <h2 id="welcome-heading" >Our Invitation</h2>
+    <div id="welcome-note">
+    </div>
+    <footer id="signature-container" >
+      <div id="signature-head"></div>
+      <div id="signature-tail"></div>
+    </footer>
+  </section>
+  <footer id="main-footer" >
+  </footer>
+  <script src="./assets/constants.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>

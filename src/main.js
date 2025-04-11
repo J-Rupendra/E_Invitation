@@ -1,17 +1,17 @@
-
-
+// ----------------------- Language change funtionality --------------------------------------------------
 document.getElementById("language-toggle").addEventListener('change',(event)=>{
     setTimeout(applyLanguage.bind(null,event?.target?.checked ? "telugu" : "english"),500)
 })
+
 
 function applyLanguage(lang){
     const languageSpecificDetails = mainDetails.getDetails(lang)
     document.getElementById("intro-message").innerText = languageSpecificDetails.introMessage
 
-    document.getElementById("bride-name").innerText = languageSpecificDetails.brideDetails.name
+    document.getElementById("bride-name").innerHTML = languageSpecificDetails.brideDetails.name
     document.getElementById("bride-owners").innerHTML = languageSpecificDetails.brideDetails.relationContent
     
-    document.getElementById("groom-name").innerText = languageSpecificDetails.groomDetails.name
+    document.getElementById("groom-name").innerHTML = languageSpecificDetails.groomDetails.name
     document.getElementById("groom-owners").innerHTML = languageSpecificDetails.groomDetails.relationContent
     
     document.getElementById("reception-label").innerText = languageSpecificDetails.receptionLabel
@@ -20,18 +20,17 @@ function applyLanguage(lang){
     document.getElementById("marriage-time").innerText = languageSpecificDetails.marriageTime
     document.getElementById("venue-label").innerText = languageSpecificDetails.venueLabel
     document.getElementById("venue-value").innerText = languageSpecificDetails.venueValue
-
-    document.getElementById("scrolling-heading").innerText = languageSpecificDetails.scrollingHeading
     
     document.getElementById("welcome-heading").innerText = languageSpecificDetails.welcomeHeading
     document.getElementById("welcome-note").innerHTML = languageSpecificDetails.welcomeNote
     document.getElementById("signature-head").innerText = languageSpecificDetails.signatureHead
-    document.getElementById("signature-tail").innerText = languageSpecificDetails.signatureTail
+    document.getElementById("signature-tail").innerHTML = languageSpecificDetails.signatureTail
 
     document.getElementById("main-footer").innerHTML = languageSpecificDetails.blessingNote
 }
 applyLanguage("english")
-// ---------------------------------------------------------------------------------------------
+
+// -------------------------- Timer ------------------------------------------------
 
 const timerElement = document.querySelector(".timer")
 const TARGET_DATE = new Date(marriageTime)
@@ -60,7 +59,7 @@ function updateTimeRemaining(){
 }
 updateTimeRemaining();
 
-// ------------------------------------------------------------------------------------------------
+// ------------------------------- Horizontal scrolling -----------------------------------------------
 
 (function (){
     const scrollingContents = document.querySelectorAll(".scrolling-content")
