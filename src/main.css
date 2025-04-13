@@ -17,6 +17,20 @@ body{
   z-index: 1;
 }
 
+.sloka{
+  display: flex;
+  justify-content: space-between;
+  margin: 0.2rem 0.8rem ;
+  font-weight: bold;
+  color: #D78D4B;
+  margin-bottom: 2rem;
+  padding-inline-start: 0;
+}
+.sloka > li{
+  list-style: none;
+  font-size: 1.4rem;
+}
+
 .logo{
   margin: auto 10px;
 }

@@ -2,7 +2,7 @@ var mainDetails = {
     english: {
         introMessage:"With the grace of all the gods",
         brideDetails: {
-            name: "Karri Teja Sri",
+            name: "Karri Tejasri",
             mother:"Bhulakshmi",
             father: "Chiranjeevi",
             relationContent: `Daughter of <strong class="parent-name">Bhulakshmi</strong> and <strong class="parent-name">Chiranjeevi</strong> stays in Parawada`
@@ -46,7 +46,7 @@ var mainDetails = {
         venueLabel: "ప్రాంతం :",
         venueValue: "పల్లపు ఆనందపురం ",
         welcomeHeading: "మా ఆహ్వానం",
-        welcomeNote: "మీరు మీ కుటుంబ సభ్యులతో కలిసి నా వివాహ వేడుకకు వచ్చి నాకు నా భార్యకు మీ చల్లని దీవెనలు అందిరిస్తారని ఆశిస్తున్నాను",
+        welcomeNote: "మీరు మీ కుటుంబ సభ్యులతో కలిసి నా వివాహ వేడుకకు వచ్చి నాకు నా భార్యకు మీ చల్లని దీవెనలు అందిస్తారని ఆశిస్తున్నాను",
         signatureHead: "ఇట్లు,",
         signatureTail: `తేజశ్రీ <span style="font-size:0.9rem">సమేత</span> రుపేంద్ర`,
         blessingNote:"<p>సర్వమంగళ మాంగళ్యే శివే సర్వార్థ సాధికే </p><p>శరణ్యే త్రంబకే గౌరి నారాయణి నమోస్తుతే</p>",
@@ -58,9 +58,9 @@ var mainDetails = {
 
 var familyDetails = [
     ["Janapareddy Appallarsa (Late)", "Janapareddy Juvvalu (Late)","Karri Lakshmi", "Karri Applanaidu"],
-    ["Satyarao", "Kasu", "Ramu", "Apparao", "Nookaratnam", "Santosh (Late)", "Latha", "Madhavarao", "Nagamani", "Sreenu", "Chanti", "Murthy"],
-    ["Chelli", "Suri", "Pooja", "Nani", "Pravallika", "Gagana", "Devi", "Bhavani", "Balu", "Raja", "Kotesh"],
-    ["Sai", "Sreenu", "Sai", "Dantesh", "Mouli", "Rajesh", "Mukta Sai", "Prasad", "Yashwant", "Prabhas"]
+    ["Satyarao", "Kasulamma", "Ramu", "Apparao", "Nookaratnam", "Santosh (Late)", "Latha", "Madhavarao", "Nagamani", "Srinu", "Shirisha", "Murthy"],
+    ["Chelli", "Suri", "Pooja", "Nani", "Pravallika", "Gagana", "Devi", "Bhavani", "Balu", "Kotesh", "Raja"],
+    ["Sai", "Srinu", "Sai kiran", "Dantesh", "Mouli", "Rajesh", "Muktha Sai", "Prasad", "Yashwanth", "Prabhas"]
 ]
 
 var marriageTime = new Date(2025,4,10,2,12)
