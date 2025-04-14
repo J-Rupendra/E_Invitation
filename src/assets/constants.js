@@ -46,7 +46,7 @@ var mainDetails = {
         venueLabel: "ప్రాంతం :",
         venueValue: "పల్లపు ఆనందపురం ",
         welcomeHeading: "మా ఆహ్వానం",
-        welcomeNote: "మీరు మీ కుటుంబ సభ్యులతో కలిసి నా వివాహ వేడుకకు వచ్చి నాకు నా భార్యకు మీ చల్లని దీవెనలు అందిస్తారని ఆశిస్తున్నాను",
+        welcomeNote: "మీ busy schedule  లో  కొంచెం time నా కోసం free చేసుకుని నా పెళ్లికి వచ్చి నన్ను నా wife ని ఆశీర్వదిస్తారని ఆశిస్తున్న.",
         signatureHead: "ఇట్లు,",
         signatureTail: `తేజశ్రీ <span style="font-size:0.9rem">సమేత</span> రుపేంద్ర`,
         blessingNote:"<p>సర్వమంగళ మాంగళ్యే శివే సర్వార్థ సాధికే </p><p>శరణ్యే త్రంబకే గౌరి నారాయణి నమోస్తుతే</p>",
